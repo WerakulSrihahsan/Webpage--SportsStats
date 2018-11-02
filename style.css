@@ -13,13 +13,14 @@ ul li {
 	float: left;
 	width: 200px;
 	height: 40px;
-	background-color: black;
+	background-color: White;
 	opacity: .8;
 	line-height: 50px;
 	text-align: center;
 	front-size: 30px
 	}
 	ul li a {
+	font-weight: bold;
 		text-decoration: none;
 		color: Black;
 		display: block;
@@ -36,3 +37,4 @@ ul li {
 	p{
 		color: White;
 	}
+	
