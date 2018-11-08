@@ -57,8 +57,35 @@ ul li {
 	}
 	slide:nth-child(1){
 		left: 0%;
-		
+		animation-delay: -1;
+		background-image: url(Football.jpg);
+		background-sie: cover;
+		background-position: center;
 	}
+	slide:nth-child(1){
+		left: 0%;
+		animation-delay: -1;
+		background-image: url(Football.jpg);
+		background-sie: cover;
+		background-position: center;
+	}
+	
+	slide:nth-child(1){
+		left: 0%;
+		animation-delay: -1;
+		background-image: url(Football.jpg);
+		background-sie: cover;
+		background-position: center;
+	}
+	
+	slide:nth-child(1){
+		left: 0%;
+		animation-delay: -1;
+		background-image: url(Football.jpg);
+		background-sie: cover;
+		background-position: center;
+	}
+	
 	
 	
 	
