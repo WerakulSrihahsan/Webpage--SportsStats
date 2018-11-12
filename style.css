@@ -86,7 +86,15 @@ ul li {
 		background-position: center;
 	}
 	
-	
+	slide p{
+		font-size: 70px;
+		text-align: center;
+		display: inline-block;
+		width: 100%;
+		margin-top: 340px;
+		color: white;
+		
+	}
 	
 	
 	
