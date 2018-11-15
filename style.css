@@ -58,7 +58,7 @@ ul li {
 	slide:nth-child(1){
 		left: 0%;
 		animation-delay: -1;
-		background-image: url(Football.jpg);
+		background-image: url(Volleyball.jpg);
 		background-sie: cover;
 		background-position: center;
 	}
@@ -73,7 +73,7 @@ ul li {
 	slide:nth-child(3){
 		left: 0%;
 		animation-delay: 5s;
-		background-image: url(Football.jpg);
+		background-image: url(Basketball.jpg);
 		background-sie: cover;
 		background-position: center;
 	}
@@ -81,7 +81,7 @@ ul li {
 	slide:nth-child(4){
 		left: 0%;
 		animation-delay: 8s;
-		background-image: url(Basketball.jpg);
+		background-image: url(Football.jpg);
 		background-sie: cover;
 		background-position: center;
 	}
