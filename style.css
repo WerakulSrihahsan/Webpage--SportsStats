@@ -3,6 +3,7 @@ background-color: #800000;
   background-size: cover; 
   font-family: Arial;
   color: Black;
+  float:left;
 }
 ul{
   margin:0px;
