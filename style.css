@@ -1,5 +1,5 @@
 body{
-background-color: #FFFF99;
+background-color: #800000;
   background-size: cover; 
   font-family: Arial;
   color: Black;
@@ -10,7 +10,7 @@ ul{
   list-style: none;
 }
 ul li {
-	float: left;
+	float: right;
 	width: 200px;
 	height: 40px;
 	background-color: White;
