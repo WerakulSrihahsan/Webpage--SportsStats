@@ -56,6 +56,8 @@ ul li {
 		overflow: hidden;
 		
 	}
+	/* Need work /Slides not moving/ images fix/ timer fix
+	
 	slide:nth-child(1){
 		left: 0%;
 		animation-delay: 1;
@@ -104,7 +106,7 @@ ul li {
 		30% { left: -100%; width: 100%;}
 		30.0001% { left: -100%; width: 0%;}
 		100% { left: 100%; width: 0%;}
-	}
+	}'
 	
 	
 	
