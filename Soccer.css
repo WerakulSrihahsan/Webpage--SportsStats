@@ -1,3 +1,11 @@
+B1{
+	float: right;
+	display: block;
+	background-color: white;
+}
+h1{
+	background-color:  #800000;
+} 
 body{
-	background-color: Blue;
-	}
+	background-color: #FFD700;
+}
