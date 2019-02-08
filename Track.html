@@ -1,8 +1,41 @@
 <!DOCTYPE html>
 <html>
- <link rel="stylesheet" type="text/css" href="Track.css">
-<h1><font size=12><center>Cooper High School Track/center></font></h1>
+ <link rel="stylesheet" type="text/css" href="Soccer.css">
+<h1><font size=12><center>Cooper High School Soccer</center></font></h1>
 <body>
+<div class="bgimg">
+	<div class="middle">
+	<p1> UP COMING</p1>
+	<h1 id="demo" style = "font-size: 30pX"></h1>
+	</div>
+</div>
+<script>
+
+var  countDownDate = new Date("Feb 30, 2019 00:00:00").getTime();
+
+var countDownFunction = setInterval( function() {
+
+var now = new Date().getTime();
+
+var distance = countDownDate - now;
+
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+<a href ="index.html">
+		<img src="111.png" style="width:55px; height:55px; position:absolute; top: 25px; left:55px;" >
+		</a>
 <P1>This Season</P1>
 <B1>Summit Score</B1>
 <li><a>Select date</a>
