@@ -3,16 +3,16 @@ function doFirst(){
 	button.addEventListener("click", Saves, false) ;
 }
 function Saves(){
-	var one = document.getElementById("One").vaule;
-	var one = document.getElementById("Two").vaule;
-	var one = document.getElementById("At").vaule;
-	var one = document.getElementById("Score").vaule;
+	var one = document.getElementById("one").vaule;
+	var one = document.getElementById("two").vaule;
+	var one = document.getElementById("three").vaule;
+	var one = document.getElementById("four").vaule;
 	sessionStorage.setItem(one,two);
-	display(Date);
+	display(one);
 }
-function display(One){
+function display(one){
 	var rightboc = document.getElementById("rightboc");
-	var Two = sessionStorage.getItem(One) ; 
-	rightboc.innerHTML = "Date: " + One +"<br />Team:"+Two;
+	var two = sessionStorage.getItem(one) ; 
+	rightboc.innerHTML = "Date: " + one +"<br />Team:"+Two;
 }
 widow.addEventListener("load", doFirst, false);
