@@ -3,10 +3,10 @@ function doFirst(){
 	button.addEventListener("click", Saves, false) ;
 }
 function Saves(){
-	var one = document.getElementById("one").vaule;
-	var one = document.getElementById("two").vaule;
-	var one = document.getElementById("three").vaule;
-	var one = document.getElementById("four").vaule;
+	var one = document.getElementById("one").value;
+	var one = document.getElementById("two").value;
+	var one = document.getElementById("three").value;
+	var one = document.getElementById("four").value;
 	sessionStorage.setItem(one,two);
 	display(one);
 }
