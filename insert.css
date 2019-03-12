@@ -1,9 +1,9 @@
-leftbox{
+#leftbox{
 	float: left;
 	padding::20px;
 	border:3px solid red;
 }
-rightbox{
+#rightbox{
 	float:left;
 	width:250px;
 	margin-left:20px;
