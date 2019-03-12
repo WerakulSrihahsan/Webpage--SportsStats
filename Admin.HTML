@@ -4,18 +4,33 @@
 <meta charset ="utf-8">
 	<title>1234</title>
 	<link rel ="stylesheet" href="Admin.css">
-<body>
-<div class ="login-box">
-<h1>Login</h1>
-<div class ="textbox">
-<input type = "text" placeholder ="Username" name="" value="">
+<body oncontetmenu="return false">
+<div class="body"></div>
+	<div class="grad"></div>
+	<div class="header">
+	
+		<div>Log<span>-In</span>
+</div>
+<br>
+<form name="login">
+<div class="login"
+<input type="text" placeholder="Username" name="userid"><br>
+<input type="password" placeholder="Password" name="pswrd"><br>
+<input type="button" onclick="check(this.form)" value="Login"/>
+</div>
+</form>
 
-</div>
-<div class="textbox">
-<input type="password" placeholder="Password" name="" vaule"">
-
-</div>
-<input class ="btn" type="button" name="" value"Sign in">
-</div>
+<script language="javascript">
+function check(form)
+{
+if(form.userid.value =="Werakul" && form.pswrd =="123")
+{
+	widow.open('Insert.html')
+}
+else
+{
+	alert("The username and password you entered don't match")
+}
+</script>
 </body>
 </html>
